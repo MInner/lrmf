@@ -32,6 +32,12 @@ Rows: distributions (align red to blue), points colored according to their local
   <img src="https://cs-people.bu.edu/usmn/img/gifs/lrmf_compressed.gif" />
 </p>
 
+Here is final flow that LRMF learned to align moon distributions:
+<p align="center">
+  <img src="https://cs-people.bu.edu/usmn/img/gh/gh_moons_1.png" />
+  <img src="https://cs-people.bu.edu/usmn/img/gh/gh_moons_2.png" />
+</p>
+
 ## Citation
 
 ```
