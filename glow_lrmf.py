@@ -1,3 +1,7 @@
+# LICENCE WARNING: 
+# some parts of this file were copy-pasted from other repositories
+# use with caution!
+
 import numpy as np
 import tensorflow.compat.v2 as tf
 import tensorflow_probability as tfp
