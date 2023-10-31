@@ -14,7 +14,7 @@ We introduce a new adversarial log-likelihood ratio domain alignment objective, 
 </p>
 
 <p align="center">
-  <img src="https://cs-people.bu.edu/usmn/img/gh/lrmf_compare.png" />
+  <img src="https://github.com/usmnb/usmnb.github.io/blob/main/img/gh/lrmf_compare.png?raw=true" />
 </p>
 
 ## Experiments
