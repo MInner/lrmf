@@ -10,10 +10,6 @@ We introduce a new adversarial log-likelihood ratio domain alignment objective, 
 > Distribution alignment has many applications in deep learning, including domain adaptation and unsupervised image-to-image translation. Most prior work on unsupervised distribution alignment relies either on minimizing simple non-parametric statistical distances such as maximum mean discrepancy or on adversarial alignment. However, the former fails to capture the structure of complex real-world distributions, while the latter is difficult to train and does not provide any universal convergence guarantees or automatic quantitative validation procedures. In this paper, we propose a new distribution alignment method based on a log-likelihood ratio statistic and normalizing flows. We show that, under certain assumptions, this combination yields a deep neural likelihood-based minimization objective that attains a known lower bound upon convergence. We experimentally verify that minimizing the resulting objective results in domain alignment that preserves the local structure of input domains.
 
 <p align="center">
-  <img src="https://cs-people.bu.edu/usmn/img/lrmf_large.png" />
-</p>
-
-<p align="center">
   <img src="https://github.com/usmnb/usmnb.github.io/blob/main/img/gh/lrmf_compare.png?raw=true" />
 </p>
 
@@ -34,13 +30,13 @@ Columns (left to right): MMD, EMD, back-to-back flow, LRMF.
 Rows: distributions (align red to blue), points colored according to their local coordinate system, class labels of the "red" dataset according = "moon arm", classification accuracy, corresponding loss.
 
 <p align="center">
-  <img src="https://cs-people.bu.edu/usmn/img/gifs/lrmf_compressed.gif" />
+  <img src="https://github.com/usmnb/usmnb.github.io/blob/3caca8ee2acb8171cf387ab54c0699666d43bae6/img/gifs/lrmf_compressed.gif?raw=true" />
 </p>
 
 Here is final flow that LRMF learned to align moon distributions:
 <p align="center">
-  <img src="https://cs-people.bu.edu/usmn/img/gh/gh_moons_1.png" />
-  <img src="https://cs-people.bu.edu/usmn/img/gh/gh_moons_2.png" />
+  <img src="https://github.com/usmnb/usmnb.github.io/blob/main/img/gh/gh_moons_1.png" />
+  <img src="https://github.com/usmnb/usmnb.github.io/blob/main/img/gh/gh_moons_2.png" />
 </p>
 
 ## Citation
